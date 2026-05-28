@@ -1,8 +1,6 @@
 // Copyright 2022 NNTU-CS
-#include  <iostream>
-#include  <fstream>
-#include  <locale>
-#include  <cstdlib>
+#include <algorithm>
+#include <vector>
 #include  "tree.h"
 
 PMTree::PMTree(const std::vector<char>& src) : base(src) {
